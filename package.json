@@ -1,0 +1,31 @@
+{
+  "name": "queen-natsumi-beta",
+  "version": "5.0.5",
+  "description": "World Best Whatsapp User Bot.Coded By Cyber Draxo",
+  "main": "./QueenNatsumi/QueenNatsumi.js",
+  "scripts": {
+    "start": "supervisor -s QueenNatsumi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Queen-Natsumi/QueenNatsumi.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "rico",
+    "queen",
+    "natsumi"
+  ],
+  "author": "Queen-Natsumi",
+  "developer": "@Queen-Natsumi / NatsumiDev",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Queen-Natsumi/QueenNatsumi/issues"
+  },
+  "homepage": "https://github.com/Queen-Natsumi/QueenNatsumi#readme",
+  "dependencies": {
+    "queen-natsumi-web-api": "3.0.2",
+    "queen-natsumi-npm": "2.1.2"
+  }
+}

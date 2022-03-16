@@ -18,10 +18,10 @@
     "natsumi"
   ],
   "author": "CyberDraxo",
-  "developer": "@Queen-Natsumi / NatsumiDev",
+  "developer": "@CyberDraxo / NatsumiDev",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Queen-Natsumi/QueenNatsumi/issues"
+    "url": "https://github.com/CyberDraxo/QueenNatsumi/issues"
   },
   "homepage": "https://github.com/CyberDraxo/QueenNatsumi#readme",
   "dependencies": {

@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Queen-Natsumi/QueenNatsumi.git"
+    "url": "git+https://github.com/CyberDraxo/QueenNatsumi.git"
   },
   "keywords": [
     "whatsapp",
@@ -17,13 +17,13 @@
     "queen",
     "natsumi"
   ],
-  "author": "Queen-Natsumi",
+  "author": "CyberDraxo",
   "developer": "@Queen-Natsumi / NatsumiDev",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/Queen-Natsumi/QueenNatsumi/issues"
   },
-  "homepage": "https://github.com/Queen-Natsumi/QueenNatsumi#readme",
+  "homepage": "https://github.com/CyberDraxo/QueenNatsumi#readme",
   "dependencies": {
     "queen-natsumi-web-api": "3.0.2",
     "queen-natsumi-npm": "2.1.2"

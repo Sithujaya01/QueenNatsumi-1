@@ -6,7 +6,7 @@ whatsapp bot - BlackRico
 */
 
 // Komutları burada tutacağız.
-var Build = require('./Build');
+var Build = require('./build');
 var Commands = [];
 
 function addCommand(info, func) {

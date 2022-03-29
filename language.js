@@ -1,4 +1,4 @@
-const Build = require('./Builder');
+const Build = require('./build');
 const fs = require('fs');
 const chalk = require('chalk');
 

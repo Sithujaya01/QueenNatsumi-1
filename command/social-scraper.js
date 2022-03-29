@@ -6,7 +6,7 @@ Instagram: www.instagram.com/kyrie.baran
 const Asena = require('../control')
 const { MessageType } = require('queen-natsumi-web-api')
 const axios = require('axios')
-const cn = require('../Build');
+const cn = require('../build');
 
 const Language = require('../language')
 const { errorMessage, infoMessage } = require('../helpers')

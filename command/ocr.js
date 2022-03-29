@@ -8,7 +8,7 @@ Thanks to github/@justinthoms for base and helps.
 */
 
 const Asena = require('../control');
-const Build = require('../Build');
+const Build = require('../build');
 const {MessageType} = require('queen-natsumi-web-api');
 const tesseract = require("node-tesseract-ocr")
 const langs = require('langs');

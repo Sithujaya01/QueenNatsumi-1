@@ -11,7 +11,7 @@ const Asena = require('../control');
 const {MessageType, Mimetype} = require('queen-natsumi-web-api');
 const memeMaker = require('meme-maker')
 const fs = require('fs')
-const Build = require('../Build');
+const Build = require('../build');
 
 const Language = require('../language');
 const Lang = Language.getString('memes');

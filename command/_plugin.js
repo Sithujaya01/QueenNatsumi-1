@@ -8,7 +8,7 @@ QueenNatsumi - CyberDraxo
 
 const Natsumi = require('../control');
 const Heroku = require('heroku-client');
-const Build = require('../Build');
+const Build = require('../build');
 const {MessageType} = require('queen-natsumi-web-api');
 const got = require('got');
 const fs = require('fs');

@@ -9,7 +9,7 @@ const fs = require('fs');
 const ffmpeg = require('fluent-ffmpeg');
 const {execFile} = require('child_process');
 const cwebp = require('cwebp-bin');
-const Build = require('../Build');
+const Build = require('../build');
 
 const Language = require('../language');
 const Lang = Language.getString('unvoice'); // Language support

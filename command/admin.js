@@ -8,7 +8,7 @@ Natsumi - CyberDraxo
 
 const {MessageType, GroupSettingChange} = require('queen-natsumi-web-api');
 const Natsumi = require('../control');
-const Build = require('../Build');
+const Build = require('../build');
 
 const Language = require('../language');
 const Lang = Language.getString('admin');

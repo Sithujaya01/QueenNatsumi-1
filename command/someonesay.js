@@ -7,7 +7,7 @@ const Asena = require('../control');
 const { MessageType, MessageOptions, Mimetype } = require('queen-natsumi-web-api');
 const fs = require('fs');
 const axios = require('axios');
-const Build = require('../Build');
+const Build = require('../build');
 
 const Language = require('../language');
 const Lang = Language.getString('ttp');

@@ -6,7 +6,7 @@ Natsumi - Natsumi
 */
 
 const Natsumi = require('../control');
-const Build = require('../Build');
+const Build = require('../build');
 const {MessageType} = require('queen-natsumi-web-api');
 
 const Language = require('../language');

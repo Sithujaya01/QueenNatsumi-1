@@ -5,7 +5,7 @@ Instagram: www.instagram.com/kyrie.baran
 
 const Natsumi = require('../control');
 const {MessageType, MessageOptions} = require('queen-natsumi-web-api');
-const Build = require('../Build');
+const Build = require('../build');
 
 // ==================== MAIN DESCRIPTION TEXT ====================
 const h_Des = "Yardım menüsünden botu kullanım hakkında bilgi verir."

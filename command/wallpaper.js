@@ -9,7 +9,7 @@ Special Thanks:
 const Asena = require('../control');
 const {MessageType, MessageOptions, Mimetype} = require('queen-natsumi-web-api');
 const axios = require('axios');
-const Build = require('../Build');
+const Build = require('../build');
 
 const Language = require('../language');
 const Lang = Language.getString('wallpaper');

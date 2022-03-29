@@ -1,6 +1,6 @@
 const Natsumi = require('../control');
 const { WAConnection, MessageType } = require('queen-natsumi-web-api');
-const Build = require('../Build');
+const Build = require('../build');
 const conn = new WAConnection() 
 
 

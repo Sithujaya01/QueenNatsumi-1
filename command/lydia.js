@@ -8,7 +8,7 @@ WhatsAsena - Yusuf Usta
 
 /*
 const Asena = require('../control');
-const Build = require('../Build');
+const Build = require('../build');
 const {MessageType} = require('queen-natsumi-web-api');
 const {LydiaDB} = require('./sql/lydia');
 const {LydiaAI} = require('coffeehouse');

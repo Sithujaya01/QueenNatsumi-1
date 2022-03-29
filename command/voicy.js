@@ -4,7 +4,7 @@ const fs = require('fs');
 const { MessageType } = require('queen-natsumi-web-api');
 const Language = require('../language');
 const Lang = Language.getString('voicy');
-const conf = require('../Build');
+const conf = require('../build');
 
 
 const recognizeAudio = () => {

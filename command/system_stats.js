@@ -10,7 +10,7 @@ Developer & Co-Founder - Phaticusthiccy
 const QueenNatsumi = require('../control');
 const {MessageType} = require('queen-natsumi-web-api');
 const {spawnSync} = require('child_process');
-const Build = require('../Build');
+const Build = require('../build');
 const chalk = require('chalk');
 const Axios = require('axios');
 

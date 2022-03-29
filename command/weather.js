@@ -9,7 +9,7 @@ WhatsAsena - Yusuf Usta
 const Asena = require('../control');
 const {MessageType} = require('queen-natsumi-web-api');
 const got = require('got');
-const Build = require('../Build');
+const Build = require('../build');
 
 
 const Language = require('../language');

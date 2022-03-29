@@ -9,7 +9,7 @@ const fs = require('fs');
 const axios = require('axios');
 const request = require('request');
 const got = require("got");
-const Build = require('../Build');
+const Build = require('../build');
 
 const Language = require('../language');
 const Lang = Language.getString('webss');

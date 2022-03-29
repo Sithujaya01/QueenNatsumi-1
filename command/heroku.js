@@ -6,7 +6,7 @@ Natsumi - Draxo
 */
 
 const Natsumi = require('../control');
-const Build = require('../Build');
+const Build = require('../build');
 const Heroku = require('heroku-client');
 const {secondsToHms} = require('./afk');
 const got = require('got');

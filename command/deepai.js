@@ -10,7 +10,7 @@ const ffmpeg = require('fluent-ffmpeg'); // For Creating File
 const {execFile} = require('child_process');
 const cwebp = require('cwebp-bin');
 const axios = require('axios'); // Resp Checker
-const Build = require('../Build'); // GAN STYLE Support
+const Build = require('../build'); // GAN STYLE Support
 
 const got = require("got"); // Responses Catcher
 const deepai = require('deepai'); // Localde ise deepmain.js oluşturarak özelleştirilebilir şekilde kullanabilirsiniz. Web Sunucularında Çalışmaz!!

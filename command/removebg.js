@@ -8,7 +8,7 @@ WhatsAsena - Yusuf Usta
 
 const Asena = require('../control');
 const {MessageType, Mimetype} = require('queen-natsumi-web-api');
-const Build = require('../Build');
+const Build = require('../build');
 const fs = require('fs');
 const got = require('got');
 const FormData = require('form-data');

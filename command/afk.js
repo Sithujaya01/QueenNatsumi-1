@@ -9,7 +9,7 @@ Developer & Co-Founder - Phaticusthiccy
 
 const Natsumi = require('../control');
 const {MessageType} = require('queen-natsumi-web-api');
-const Build = require('../Build');
+const Build = require('../build');
 
 const Language = require('../language');
 const Lang = Language.getString('afk');

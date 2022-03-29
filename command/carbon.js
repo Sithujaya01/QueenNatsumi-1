@@ -6,7 +6,7 @@ Instagram: www.instagram.com/kyrie.baran
 const Natsumi = require('../control');
 const {MessageType, MessageOptions, Mimetype} = require('queen-natsumi-web-api');
 const axios = require('axios');
-const Build = require('../Build');
+const Build = require('../build');
 const dd = "Made by Queen Natsumi"
 
 const Language = require('../language');

@@ -9,7 +9,7 @@ const Asena = require('../control');
 const {MessageType} = require('queen-natsumi-web-api');
 const speedTest = require('@lh2020/speedtest-net');
 const TinyURL = require('tinyurl');
-const Build = require('../Build');
+const Build = require('../build');
 
 const Language = require('../language');
 const Lang = Language.getString('web');

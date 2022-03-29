@@ -5,7 +5,7 @@ Instagram: www.instagram.com/kyrie.baran
 
 const Asena = require('../control');
 const {MessageType} = require('queen-natsumi-web-api');
-const Build = require('../Build');
+const Build = require('../build');
 
 const Language = require('../language');
 const Lang = Language.getString('tagall');

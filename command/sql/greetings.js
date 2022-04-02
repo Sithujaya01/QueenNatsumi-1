@@ -6,7 +6,7 @@ you may not use this file except in compliance with the License.
 Natsumi - CyberDraxo
 */
 
-const Build = require('../build');
+const Build = require('../config');
 const { DataTypes } = require('sequelize');
 
 const GreetingsDB = Build.DATABASE.define('Greeting', {

@@ -6,10 +6,10 @@ you may not use this file except in compliance with the License.
 Natsumi - CyberDraxo
 */
 
-const Build = require('../build');
+const build = require('../../build');
 const { DataTypes } = require('sequelize');
 
-const PluginDB = Build.DATABASE.define('Plugin', {
+const PluginDB = build.DATABASE.define('Plugin', {
     name: {
         type: DataTypes.STRING,
         allowNull: false

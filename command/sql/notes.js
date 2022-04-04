@@ -6,10 +6,10 @@
 #
 */
 
-const Build = require('../build');
+const build = require('../../build');
 const { DataTypes } = require('sequelize');
 
-const NotesDB = Build.DATABASE.define('notes', {
+const NotesDB = build.DATABASE.define('notes', {
     note: {
         type: DataTypes.TEXT,
         allowNull: false

@@ -6,15 +6,15 @@ you may not use this file except in compliance with the License.
 Natsumi - CyberDraxo
 */
 
-const Build = require('../build');
+const build = require('../../build');
 const { DataTypes } = require('sequelize');
 
-const FiltersDB = Build.DATABASE.define('filter', {
+const FiltersDB = build.DATABASE.define('filter', {
     chat: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    Pnatsumi: {
+    pattern: {
         type: DataTypes.TEXT,
         allowNull: false
     },
@@ -29,7 +29,7 @@ const FiltersDB = Build.DATABASE.define('filter', {
 
 async function getFilter(jid = null, filter = null) {
     var Wher = {chat: jid};
-    if (filter !== null) Wher.push({Pnatsumi: filter});
+    if (filter !== null) Wher.push({pattern: filter});
     var Msg = await FiltersDB.findAll({
         where: Wher
     });
@@ -46,14 +46,14 @@ async function setFilter(jid = null, filter = null, tex = null, regx = false) {
     var Msg = await FiltersDB.findAll({
         where: {
             chat: jid,
-            Pnatsumi: filter
+            pattern: filter
         }
     });
 
     if (Msg.length < 1) {
-        return await FiltersDB.create({ chat: jid, Pnatsumi: filter, text: tex, regex: regx });
+        return await FiltersDB.create({ chat: jid, pattern: filter, text: tex, regex: regx });
     } else {
-        return await Msg[0].update({ chat: jid, Pnatsumi: filter, text: tex, regex: regx });
+        return await Msg[0].update({ chat: jid, pattern: filter, text: tex, regex: regx });
     }
 }
 
@@ -61,7 +61,7 @@ async function deleteFilter(jid = null, filter) {
     var Msg = await FiltersDB.findAll({
         where: {
             chat: jid,
-            Pnatsumi: filter
+            pattern: filter
         }
     });
     if (Msg.length < 1) {

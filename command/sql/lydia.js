@@ -6,10 +6,10 @@ you may not use this file except in compliance with the License.
 Natsumi - CyberDraxo
 */
 
-const Build = require('../build');
+const build = require('../../build');
 const { DataTypes } = require('sequelize');
 
-const LydiaDB = Build.DATABASE.define('Lydia', {
+const LydiaDB = build.DATABASE.define('Lydia', {
     session_id: {
         type: DataTypes.STRING,
         allowNull: false

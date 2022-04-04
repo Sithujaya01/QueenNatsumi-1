@@ -25,12 +25,6 @@ Licensed under the  GPL-3.0 License;
 QUEEN-NATSUMI Cyber Draxo
 */
 
-/* Copyright (C) 2021 QUEEN-NATSUMI
-Licensed under the  GPL-3.0 License;
- you may not use this file except in compliance with the License.
-QUEEN-NATSUMI Cyber Draxo
-*/
-
 const fs = require("fs");
 const path = require("path");
 const control = require("./control");
@@ -46,10 +40,6 @@ const got = require('got');
 var BTNMSG = ''
 if (Build.LANG == 'EN') BTNMSG = '🪀💃 ✰ ℚ𝕌𝔼𝔼ℕ ℕ𝔸𝕋𝕊𝕌𝕄𝕀 𝔹𝕆𝕋 ✰ 🏆!! \n\n USERNAME ${conn.user.name}! \n\n*❒ Welcome To QUEEN-NATSUMI :│🍁*\n\n\n Your Bot Working  As ${Build.WORKTYPE} ❒.\n\n*❒│QUEEN-NATSUMI WORKING Your Account*\n\n*🍁▷ Use the 🚀.NATSUMI command to get bot menu...*\n\n\n*❒ QUEEN-NATSUMI is a powerfull WhatsApp robot developed by CYBER-DRAXO.*\n\n*🚀 This is your LOG number. Avoid using the command here.\n\n'
 if (Build.LANG == 'SI') BTNMSG = '🪀💃 ✰ ℚ𝕌𝔼𝔼ℕ ℕ𝔸𝕋𝕊𝕌𝕄𝕀 𝔹𝕆𝕋 ✰ 🏆!! \n\n USERNAME ${conn.user.name}! \n\n*❒ සාදරයෙන් QUEEN-NATSUMI වෙත පිලිගන්නවා :│🍁*\n\n\n ඔබේ Bot ${Build.WORKTYPE} ලෙස ක්‍රියාකරයි.\n\n*❒│QUEEN-NATSUMI ඔබගේ ගිණුමේ දැන් සක්‍රියයි*\n\n*🍁 QUEEN-NATSUMI bot සම්පූර්න මෙනුව ලබා ගැනීමට ❒.NATSUMI විධානය භාවිතා කරන්න...*\n\n\n*❒ QUEEN-NATSUMI යනූ සීඝ්‍රයෙන් වර්ධනය වන Whatsapp රොබෝවෙකි.. /n/n මෙය ඔබගේ LOG අංකයයි.මෙහි විධාන භාවිතයෙන් වළකින්න.'
-
-var ERRBTN = ''
-if (Build.LANG == 'EN') ERRBTN = '*🎯💃 𝐐𝐔𝐄𝐄𝐍 𝐍𝐀𝐓𝐒𝐔𝐌𝐈 𝐁𝐎𝐓 🪀*  WORKING AS ${config.WORKTYPE} !!\n\nYOUR NAME ▷${conn.user.name}! /n/n ⦁_This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n\n*Error:* ```' + error + '```\n\n'
-if (Build.LANG == 'SI') ERRBTN = '*🏅💃 𝐐𝐔𝐄𝐄𝐍 𝐍𝐀𝐓𝐒𝐔𝐌𝐈 𝐁𝐎𝐓 🪀* ${config.WORKTYPE} ලෙස ක්‍රියා කරයි!!\n\nඔබේ නම ▷${conn.user.name}! /n/n ⦁_මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\n ඒ සදහා පහත support group join button එක click කරන්න\n\n*දෝෂය:* ```' + error + '```\n\n'
 
 var BUTTHANDLE = '';
 if (/\[(\W*)\]/.test(Build.HANDLERS)) {
@@ -514,7 +504,7 @@ ${chalk.blue.italic('🏆 Connecting to WhatsApp...▶')}`);
 			    ]
 			    const buttonMessag = {
 			        image: {url: 'https://telegra.ph/file/96ea4428b3e50a7764d8f.jpg'},    
-			        contentText: ERRBTN,
+			        contentText: '*🎯💃 𝐐𝐔𝐄𝐄𝐍 𝐍𝐀𝐓𝐒𝐔𝐌𝐈 𝐁𝐎𝐓 🪀*  WORKING AS +Build.WORKTYPE+ !!\n\nYOUR NAME ▷${conn.user.name}! /n/n ⦁_This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n\n*Error:* ```' + error + '```\n\n',
 			        footerText: 'ǫᴜᴇᴇɴ ɴᴀᴛsᴜᴍɪ ʙᴜᴛᴛᴏɴ ʙᴏᴛ',
 			        buttons: buttns,
 			        headerType: 4

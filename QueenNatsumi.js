@@ -523,7 +523,7 @@ ${chalk.blue.italic('🏆 Connecting to WhatsApp...▶')}`);
                             }
                         }
                     }
-                }
+                
             }
         )
     });

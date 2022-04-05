@@ -26,6 +26,7 @@ module.exports = {
     INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
     Bad_Word: process.env.BAD_KICK === undefined ? 'true' : process.env.BAD_KICK,
     BYE_LOGO: process.env.BYE_LOGO === undefined ? 'https://i.ibb.co/3vSHqHb/e5693cca4e3d.jpg' : process.env.BYE_LOGO,
+    BOT: process.env.BOT_NAME === undefined ? 'ǫᴜᴇᴇɴ ɴᴀᴛsᴜᴍɪ' : process.env.BOT_NAME,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://telegra.ph/file/24cacd9938446a38180fd.png' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
